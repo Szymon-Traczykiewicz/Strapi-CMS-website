@@ -1,0 +1,120 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blockchain_developments",
+  "info": {
+    "singularName": "blockchain-development",
+    "pluralName": "blockchain-developments",
+    "displayName": "Blockchain Development",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderBD": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DescriptBD": {
+      "type": "richtext",
+      "required": true
+    },
+    "SubHeadingBD": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileOne": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileTwo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileThree": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileFour": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileSix": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileSeven": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileContact": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DescriptTileOne": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileTwo": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileThree": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileFour": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileFive": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileSix": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileSeven": {
+      "type": "richtext",
+      "required": true
+    },
+    "ImgBD": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgBubbleBD": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "HeadingTileFive": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

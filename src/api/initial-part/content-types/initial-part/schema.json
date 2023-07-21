@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "initial_parts",
+  "info": {
+    "singularName": "initial-part",
+    "pluralName": "initial-parts",
+    "displayName": "InitialPart",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderInitialPart": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "InitialPartPicture": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ]
+    },
+    "InitialPartClutch": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ]
+    }
+  }
+}

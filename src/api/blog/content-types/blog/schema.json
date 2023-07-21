@@ -1,0 +1,165 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderBlog": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingArticleOne": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingArticleTwo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingArticleThree": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingArticleFour": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingArticleFive": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingArticleSix": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingArticleSeven": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingArticleEight": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingArticleNine": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ImgArticleOne": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgArticleTwo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgArticleThree": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgArticleFour": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgArticleFive": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgArticleSix": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgArticleSeven": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgArticleEight": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgArticleNine": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

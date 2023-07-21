@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_netis",
+  "info": {
+    "singularName": "about-neti",
+    "pluralName": "about-netis",
+    "displayName": "About Neti",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderAboutNeti": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DescriptAboutNeti": {
+      "type": "richtext",
+      "required": true
+    },
+    "AboutNetiBubbleRightTop": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AboutNetiBubbleMiddle": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AboutNetiImg": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

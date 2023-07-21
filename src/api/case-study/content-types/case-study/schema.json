@@ -1,0 +1,247 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "singularName": "case-study",
+    "pluralName": "case-studies",
+    "displayName": "Case Study",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderCaseStudies": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DesriptCaseStudy": {
+      "type": "richtext",
+      "required": true
+    },
+    "FilterByTechnology": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "FilterByTag": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "TagsByTechnology": {
+      "type": "richtext",
+      "required": true
+    },
+    "TagByTag": {
+      "type": "richtext",
+      "required": true
+    },
+    "ImgTradlo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgSaaS": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgMicroservices": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgInteligentBot": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgHighAvailability": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgInfluenceVote": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgEasyToIntegrate": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgMultitoken": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgMultuchain": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgBankVote": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgCleanUI": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgBubbleContact": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "HeadingTradlo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "SaaS": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Microservices": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "InteligentBot": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HighAvailability": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Multuchain": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Multitoken": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "EasyToIntegrate": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "CleanUI": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "QuestionContact": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingInfluenceVote": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingBankVote": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "TagsTradlo": {
+      "type": "richtext",
+      "required": true
+    },
+    "TagsInfluenceVote": {
+      "type": "richtext",
+      "required": true
+    },
+    "TagsBankVote": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

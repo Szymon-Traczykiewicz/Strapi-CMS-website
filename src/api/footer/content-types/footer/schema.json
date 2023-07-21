@@ -1,0 +1,175 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ImgLogoNeti": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "NameCompany": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "AddressCompany": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "NIPnumber": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "H4Services": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ServicesBD": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ServicesSO": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ServicesMVP": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ServicesTE_BL": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ServicesUI_UX": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ServicesAP": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ImgClutch": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BlockchainTechnologyCompanies": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TextCopyright": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "SocialMediaLinkedin": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SocialMediaTelegram": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SocialMediaMediumBrands": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SocialMediaFacebook": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SocialMediaTwitter": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SocialMediaInstagram": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ServicesBC": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

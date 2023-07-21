@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_technologies",
+  "info": {
+    "singularName": "our-technology",
+    "pluralName": "our-technologies",
+    "displayName": "Our Technologies",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderOurTechnologies": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ImgTileOneTechnologies": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgTileTwoTechnologies": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgTileThreeTechnologies": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TextTileOne": {
+      "type": "richtext",
+      "required": true
+    },
+    "TextTileTwo": {
+      "type": "richtext",
+      "required": true
+    },
+    "TextTileThree": {
+      "type": "richtext"
+    },
+    "TopLeftCorner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "BottomRightCorner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

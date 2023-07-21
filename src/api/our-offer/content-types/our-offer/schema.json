@@ -1,0 +1,163 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_offers",
+  "info": {
+    "singularName": "our-offer",
+    "pluralName": "our-offers",
+    "displayName": "Our Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderOurOffer": {
+      "type": "string",
+      "required": true
+    },
+    "HeaderTileOne": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeaderTileTwo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeaderTileThree": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeaderTileFour": {
+      "type": "string"
+    },
+    "ButtonLearnMore": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ListTileOne": {
+      "type": "richtext",
+      "required": true
+    },
+    "PictureTileOne": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ]
+    },
+    "PictureTileTwo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PictureTileThree": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "PictureTileFour": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BubbleImg": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "HeaderBlockContactUs": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ListTileTwo": {
+      "type": "richtext",
+      "required": true
+    },
+    "ListTileThree": {
+      "type": "richtext",
+      "required": true
+    },
+    "ListTileFour": {
+      "type": "richtext",
+      "required": true
+    },
+    "ChangeImgTileOne": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ChangeImgTileTwo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "ChangeImgTileThree": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "ChangeImgTileFour": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

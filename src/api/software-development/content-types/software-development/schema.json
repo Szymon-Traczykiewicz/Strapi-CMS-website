@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "software_developments",
+  "info": {
+    "singularName": "software-development",
+    "pluralName": "software-developments",
+    "displayName": "Software Development"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderSD": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DescriptSD": {
+      "type": "richtext",
+      "required": true
+    },
+    "SubHeadingSD": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileOne": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileTwo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileThree": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileFour": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileFive": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileContact": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DescriptTileOne": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileTwo": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileThree": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileFour": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileFive": {
+      "type": "richtext",
+      "required": true
+    },
+    "ImgSD": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "ImgBubbleSD": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

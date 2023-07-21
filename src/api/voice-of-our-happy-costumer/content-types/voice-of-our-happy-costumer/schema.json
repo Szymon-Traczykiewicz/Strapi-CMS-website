@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "voice_of_our_happy_costumers",
+  "info": {
+    "singularName": "voice-of-our-happy-costumer",
+    "pluralName": "voice-of-our-happy-costumers",
+    "displayName": " Voice of Our Happy Costumers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderVoiceCostumers": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "SlidePageOne": {
+      "type": "richtext",
+      "required": true
+    },
+    "SlidePageTwo": {
+      "type": "richtext",
+      "required": true
+    },
+    "ImgSlideOne": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ImgSlideTwo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ArrowLeft": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "personNameFirstSlide": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "personNameTwoSlide": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "personIdentityFirstSlide": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "personIdentityTwoSlide": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ArrowRight": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

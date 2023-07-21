@@ -1,0 +1,101 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blockchain_consultings",
+  "info": {
+    "singularName": "blockchain-consulting",
+    "pluralName": "blockchain-consultings",
+    "displayName": "Blockchain Consulting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DescriptBC": {
+      "type": "richtext",
+      "required": true
+    },
+    "HeaderBC": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ImgBC": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SubHeadingBC": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileOne": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileTwo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileThree": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileFour": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileFive": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileContact": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ImgBubbleBC": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "DescriptTileOne": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileTwo": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileThree": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileFour": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileFive": {
+      "type": "richtext"
+    }
+  }
+}

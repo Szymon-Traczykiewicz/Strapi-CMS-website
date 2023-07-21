@@ -1,0 +1,110 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ux_ui_designs",
+  "info": {
+    "singularName": "ux-ui-design",
+    "pluralName": "ux-ui-designs",
+    "displayName": "UX/UI design"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderUX": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DescriptUX": {
+      "type": "richtext",
+      "required": true
+    },
+    "SubHeadingUX": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileOne": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileTwo": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileThree": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileFour": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileFive": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HeadingTileContact": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "DescriptTileOne": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileTwo": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileThree": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileFour": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileFive": {
+      "type": "richtext",
+      "required": true
+    },
+    "DescriptTileSix": {
+      "type": "richtext",
+      "required": true
+    },
+    "ImgUX": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "ImgBubbleUX": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "HeadingTileSix": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
